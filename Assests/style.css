@@ -1,82 +1,103 @@
-/** Home Page Style **/
 * {
     box-sizing: border-box;
-} 
-/** Nav bar **/
-  .topnav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topnav {
     overflow: hidden;
+    background-color: white;
   }
- /** Eric Nelson II **/ 
- #navbar-brand {
+.topnav a {
     float: left;
-    color: #4aaaa5;
+    color: lightgrey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
+  } 
+.topnav a:hover {
+    background-color: #4aaaab;
+    color: black;
+  }
+.topnav a.active {
+    background-color: #4aaaab;
+    color: white;
+    margin-left: 60px;
     font-size: 24px;
   }
-/** Nav Bar curser hover color **/
-  .topnav a:hover {
-    background-color: #ddd;
-  }
-/** Nav bar when button is active **/
-  .topnav a.active {
-    color: white;
-  }
-  /** Nav menu shift right **/
-  .topnav-right {
+.topnav-right {
     float: right;
   }
-/** Image background **/
-#container-fluid {
+.container-fluid {
+    background: url("../../enelsonii.github.io/images/gravel.png");
     width: both;
     overflow: auto;
-    background-image: url("../../enelsonii.github.io/images/gravel.png");
     padding: 50px;
   }
-  /** The life of the page **/
+.clearfix {
+    overflow: auto;
+    display: block;
+  }
 #content {
-  width: 100%;
-  padding: 12px 60px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  background: white;
-  border-radius: 4px;
-}
-/** About Me h2 **/
-h2 {
-    color: #4aaaab;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
-/** My image **/
-img {
- float: left;
- padding: 10px;
-}
-/** Personal Bio **/
-#p {
-    font-family: Arial, Helvetica, sans-serif
-}
-div.a {
-  text-indent: 50px;
-}
-div.b {
-  text-indent: 50px;
-}
-div.c {
-  text-indent: 50px;
-}
-/** empty pace **/
-#place-holder {
-    padding: 10px;
-    background:#4aaaa5;
-    text-align: center;
-}
-/** footer **/
-footer {
-    padding: 20px;
-    clear: both;
-    background: #777777;
-    text-align: center;
-    color: white;
+    width: 100%;
+    padding: 12px 60px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 4px;
+  }
+  /** About Me h2 **/
+  h2 {
+      color: #4aaaab;
+      font-family: Georgia, Times, 'Times New Roman', serif;
+  }
+  /** My image **/
+  img {
+   float: left;
+   padding: 10px;
+  }
+  /** Personal Bio **/
+  #p {
+      font-family: Arial, Helvetica, sans-serif
+  }
+  div.a {
+    text-indent: 50px;
+  }
+  div.b {
+    text-indent: 50px;
+  }
+  div.c {
+    text-indent: 50px;
+  }
+  /** empty pace **/
+  #place-holder {
+      padding: 10px;
+      background:#4aaaa5;
+      text-align: center;
+  }
+  /** footer **/
+  footer {
+      padding: 20px;
+      clear: both;
+      background: #777777;
+      text-align: center;
+  }
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 980px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
 }
