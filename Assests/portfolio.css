@@ -4,14 +4,21 @@ body {
 }
 #content {
     padding: 5%;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 20%; 
     background: white;
+    border-style: solid;
+    color: white;
     font-family: 'Times New Roman', Times, serif
 }
-img {
-
+row {
+    padding: 5%;
 }
+img {
+    border-style: solid;
+    color: white;
+}
+
 h2 {
     color: #4aaaab;
     font-family: 'Times New Roman', Times, serif

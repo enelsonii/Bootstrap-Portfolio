@@ -4,13 +4,10 @@ body {
 }
 #content {
     padding: 5%;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 20%; 
     background: white;
     font-family: 'Times New Roman', Times, serif
-}
-img {
-
 }
 h2 {
     color: #4aaaab;
