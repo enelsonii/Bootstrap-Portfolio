@@ -1,9 +1,12 @@
+/* Page font */
 * {
     font-family: 'Times New Roman', Times, serif;
 }
+/* background texture */
 body {
     background-image: url("../../enelsonii.github.io/images/gravel.png");
 }
+/* Page content */
 #content {
     padding: 5%;
     margin-top: 10%;
@@ -16,15 +19,17 @@ body {
 row {
     padding: 5%;
 }
+/* Portfolio images */
 img {
     border-style: solid;
     color: white;
 }
-
+/* Portfolio */
 h2 {
     color: #4aaaab;
     font-family: 'Times New Roman', Times, serif
 }
+/* Placeholder */
 #place-holder {
     padding: 10px;
     background:#4aaaa5;

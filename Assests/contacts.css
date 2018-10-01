@@ -1,9 +1,12 @@
+/* Page font */
 * {
     font-family: 'Times New Roman', Times, serif;
 }
+/* background texture */
 body {
     background-image: url("../../enelsonii.github.io/images/gravel.png");
 }
+/* About me paragraph */
 #content {
     padding: 5%;
     margin-top: 10%;
@@ -11,10 +14,12 @@ body {
     background: white;
     font-family: 'Times New Roman', Times, serif
 }
+/* "Contacts" */
 h2 {
     color: #4aaaab;
     font-family: 'Times New Roman', Times, serif
 }
+/* Placeholder */
 #place-holder {
     padding: 10px;
     background:#4aaaa5;
